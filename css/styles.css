@@ -166,14 +166,19 @@ ol {
 /* Section 1 "Hero" */
 /* h1 */
 .hero-space {
-  /* background-color: #2e2f42; */
-  /* padding: 188px 0; */
+  background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-image {
   width: 1400px;
   height: 600px;
-  background-image: url(../images/people-office.jpg);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
 }
 
 .h-one {
