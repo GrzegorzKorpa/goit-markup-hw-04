@@ -169,6 +169,13 @@ ol {
   background-color: #2e2f42;
   padding: 188px 0;
 }
+
+.hero-image {
+  width: 1400px;
+  height: 600px;
+  background-image: url(../images/people-office.jpg);
+}
+
 .h-one {
   font-family: "Roboto";
   font-weight: 700;
