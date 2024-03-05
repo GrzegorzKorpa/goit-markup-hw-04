@@ -293,6 +293,11 @@ ol {
   align-items: center;
   margin-bottom: 8px;
 }
+
+.effective-svg {
+  width: 64px;
+  height: 64px;
+}
 .effective-hthree {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
