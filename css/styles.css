@@ -375,7 +375,7 @@ ol {
   color: #434455;
 }
 .name-job-links {
-  display: flax;
+  display: flex;
   justify-content: center;
   gap: 24px;
 }
@@ -390,8 +390,7 @@ ol {
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
-  display: flax;
-  align-items: center;
+  display: flex center;
   justify-content: center;
 }
 
