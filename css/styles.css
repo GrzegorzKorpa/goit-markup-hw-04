@@ -353,6 +353,21 @@ ol {
   padding: 32px 0px;
 }
 
+.team-icons-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.team-icons {
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* h3 center for Section 2-"Our Team"*/
 .hthree-team {
   font-family: "Roboto", sans-serif;
