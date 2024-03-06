@@ -355,7 +355,8 @@ ol {
 
 .team-icons-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 24px;
 }
 
 .team-icons {
@@ -421,7 +422,11 @@ ol {
   height: 16px;
   fill: #f4f4fd;
 }
-
+.team-svg {
+  width: 16px;
+  height: 16px;
+  fill: #f4f4fd;
+}
 /* Section 3 "Our Portfolio" */
 .portfolio-general {
   padding-top: 120px;
