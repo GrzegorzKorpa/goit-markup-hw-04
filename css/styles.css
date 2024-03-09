@@ -445,11 +445,14 @@ ol {
 .portfolio-li {
   background-color: #ffffff;
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 1s;
 }
-.app-name {
+
+.portfolio-li:hover .app-name {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  box-shadow: 0 0 3px #515151;
 }
 
 .htwo-portfolio {
